@@ -11,7 +11,8 @@ function App() {
             <Navbar />
             <Switch>
                 {/*This is setting the TRLY link that can be clicked */}
-                <Route path='/' exact component={Home} />
+                <Route path='/' exact component=
+                    {Home} />
             </Switch>
         </Router>
     </>
