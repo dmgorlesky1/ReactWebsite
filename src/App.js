@@ -16,7 +16,7 @@ function App() {
                 {/*This is setting the TRLY link that can be clicked */}
                 <Route path='/' exact component=
                     {Home} />
-
+                {/*This is setting the paths when a button on the navbar is clicked */}
                 <Route path={'/services'} component={Services} />
                 <Route path={'/products'} component={Products} />
                 <Route path={'/sign-up'} component={SignUp} />
